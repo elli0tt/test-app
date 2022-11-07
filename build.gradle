@@ -8,3 +8,15 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    coreVersion = '1.9.0'
+    navigationComponentVersion = '2.5.3'
+    roomVersion = '2.4.3'
+    appCompatVersion = '1.5.1'
+    materialVersion = '1.7.0'
+    constraintLayoutVersion = '2.1.4'
+    fragmentVersion = '1.5.4'
+    daggerVersion = '2.42'
+    moshiVersion = '1.13.0'
+}
