@@ -1,4 +1,6 @@
 package com.elli0tt.testapp.presentation.screen.sort
 
-class SortViewModel {
+import androidx.lifecycle.ViewModel
+
+class SortViewModel : ViewModel() {
 }

@@ -1,4 +1,6 @@
 package com.elli0tt.testapp.presentation.screen.favourites
 
-class FavouritesViewModel {
+import androidx.lifecycle.ViewModel
+
+class FavouritesViewModel: ViewModel() {
 }

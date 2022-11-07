@@ -1,4 +1,6 @@
 package com.elli0tt.testapp.presentation.screen.main
 
-class MainViewModel {
+import androidx.lifecycle.ViewModel
+
+class MainViewModel: ViewModel() {
 }
